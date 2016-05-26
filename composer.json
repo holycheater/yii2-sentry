@@ -1,0 +1,20 @@
+{
+    "name" : "alex-salt/yii2-sentry",
+    "description" : "Yii2 sentry error handler",
+    "type": "library",
+    "homepage": "https://github.com/holycheater/yii2-sentry",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Salt",
+            "email": "alex.salt@e96.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2" : "*",
+        "raven/raven" : "*"
+    },
+    "autoload": {
+        "psr-4" : { "alexsalt\\sentry\\" : "src/" }
+    }
+}
