@@ -12,7 +12,7 @@
     ],
     "require": {
         "yiisoft/yii2" : "*",
-        "raven/raven" : "*"
+        "sentry/sentry" : "*"
     },
     "autoload": {
         "psr-4" : { "alexsalt\\sentry\\" : "src/" }
